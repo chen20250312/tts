@@ -1,0 +1,14 @@
+service:
+  name: ttsmaker-api
+  port: 8000
+  host: 0.0.0.0
+
+tts:
+  baseUrl: https://ttsmaker.cn
+  timeout: 30000
+  sessionId: "gAAAAABoLqZBfaGoblUf69leF5pk24eGq0ivldFrF45Mq8owlj1Ht41ZNHReN2CWO2d9hIHSFE_PGDn6TFxuxZ_azAI4KnBxyw4KoHqhA95Ik3yGBsyeZmaGG555wcJnX8gdkMO2_ylzACpH1Mpxx3EE6NywO0YkmvpvsNuviadGCoRs6OvQd3c="
+
+cache:
+  dir: ./cache
+  maxSize: 1073741824  # 1GB
+  maxAge: 604800000    # 7 days 
